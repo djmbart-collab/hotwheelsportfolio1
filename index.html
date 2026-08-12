@@ -46,94 +46,34 @@
       </p>
     </section>
     <section id="projects" class="card">
-      <h2>Featured Projects</h2>
-      <br />
-      <div class="columns">
-        <div>
-          <h3>🏎 On the Track</h3>
-          <ul>
-            <br>
-            <br>
-            <img src="dasabenslogotransparent.png" alt="DaSaBens Logo" style="width: 100px; height: auto;">
-            <br>
-            <h3>Website for Online Christian Resources - DaSaBens</h3>
-            <p>July 2026 - Present</p>
-            <br>
-            <li>Leading in the development of an online, teen-focused Christian platform called DaSaBens. 
-              DaSaBens is a online Christian learning resource created by me and my siblings to offer a host of digital content to help you explore the Bible through various means.</li>
-            <br>
-            <h3>Skills</h3>
-            <br>
-            <div class="chips">
-              <span>Cloudflare</span><span>HTML/CSS/JS</span><span>StackBlitz</span
-              ><span>Github</span><span>DNS</span>
-            </div>
-            <br>
-            <br>
-            <img src="dclmlogo.png" alt="Deeper Life Bible Church Logo" style="width: 100px; height: auto;">
-            <br>
-            <h3>Website Project @ Deeper Life Bible Church Alexandria - AV Ministry Team</h3>
-            <p>July 2026 - Present</p>
-            <br>
-            <li>Currently co-leading in the programming and development of a general purpose website for my church.</li>
-            <br>
-            <h3>Skills</h3>
-            <br>
-            <div class="chips">
-              <span>Cloudflare</span><span>HTML/CSS/JS</span><span>Claude Code w/VS Code</span
-              ><span>Github</span><span>DNS</span>
-            </div>
-            <br>
-          </ul>
-        </div>
-        <div>
-          <h3>🚩 Finished Laps</h3>
-          <ul>
-            <br>
-            <img src="ece101finalannotatedbb.png" alt="ECE101 Annotated Breadboard" style="width: 300px; height: auto;">
-            <br>
-            <h3>ECE101 - Logic Wars: NOT Gate vs. XOR Gate "CTF" Logic Circuit</h3>
-            <p>April 2026 - May 2026</p>
-            <br>
-            <li>Designed and built a prototype interactive two-player digital logic game that transforms combinational logic into a competitive capture-the-flag experience. </li>
-            <br> 
-            <li>The project uses 74LS04 NOT and 74LS86 XOR logic gates, a transistor-based bistable LED network, switch arrays, and discrete components to create real-time gameplay where players strategically 
-              manipulate the logic states to capture the opponent's "flag."</li>
-              <br>
-              <li>Developing this in my dorm really taught me the importance of resiliency as a Computer Engineer in iterative design and testing, as it took hours of brainstorming and trial and error to develop this prototype.</li>
-            <br>
-            <h3>Skills</h3>
-            <br>
-            <div class="chips">
-              <span>Circuit/Schematic Design</span><span>Boolean Logic</span><span>Troubleshooting</span
-              ><span>Electronics Hardware Design</span>
-            </div>
-            <br>
-            <br>
-            <img src="smartassistivewalker.jpg" alt="Smart Assistive Walker" style="width: 300px; height: auto;">
-            <br>
-            <h3>ENGR107 Team Engineering Project - Smart Assistive Walker</h3>
-            <p>Oct. 2025 - Dec. 2025</p>
-            <br>
-            <li>Led my team through the design and development of a smart assistive walker for visually and mobility-impaired elders. I programmed and wired an Arduino-based ultrasonic sensing system with an active buzzer in C/C++ to provide auditory proximity alerts
-              for the walker. Coordinated task delegation, design reviews, testing, budgeting, CAD, and prototype fabrication to meet project performance requirements.</li>
-            <br>
-            <h3>Skills</h3>
-            <br>
-            <div class="chips">
-              <span>CAD</span><span>Engineering Process</span><span>C/C++</span
-              ><span>Project Management</span><span>Prototyping & Fabrication</span>
-            </div>
-            <br>
-          </ul>
-        </div>
-        <div>
-          <h3>🧰 In the Pit</h3>
-          <ul>
-            <br>
-            <h2>Nothing to see here. ⛟</h2>
-          </ul>
-        </div>
+      <div class="section-heading">
+        <div><span class="eyebrow">Portfolio pit lane</span><h2>Featured Projects</h2></div>
+        <p class="section-intro">A flexible lineup of builds, experiments, and collaborations.</p>
+      </div>
+      <div class="tabs" data-tab-group="projects">
+        <button class="tab active" data-tab="all">All projects</button>
+        <button class="tab" data-tab="track">🏎 On the Track</button>
+        <button class="tab" data-tab="finished">🚩 Finished Laps</button>
+        <button class="tab" data-tab="pit">🧰 In the Pit</button>
+      </div>
+      <div class="card-grid">
+        <article class="project-card" data-category="track">
+          <div class="project-img"><img src="dasabenslogotransparent.png" alt="DaSaBens Logo"></div>
+          <div class="project-body"><span class="project-tag">Active</span><h3>Website for Online Christian Resources — DaSaBens</h3><p class="project-date">July 2026 – Present</p><p>Leading in the development of an online, teen-focused Christian platform created with my siblings to help people explore the Bible through digital content.</p><div class="chips"><span>Cloudflare</span><span>HTML/CSS/JS</span><span>StackBlitz</span><span>GitHub</span><span>DNS</span></div></div>
+        </article>
+        <article class="project-card" data-category="track">
+          <div class="project-img"><img src="dclmlogo.png" alt="Deeper Life Bible Church Logo"></div>
+          <div class="project-body"><span class="project-tag">Active</span><h3>Website Project @ Deeper Life Bible Church Alexandria — AV Ministry Team</h3><p class="project-date">July 2026 – Present</p><p>Currently co-leading the programming and development of a general-purpose website for my church.</p><div class="chips"><span>Cloudflare</span><span>HTML/CSS/JS</span><span>Claude Code w/VS Code</span><span>GitHub</span><span>DNS</span></div></div>
+        </article>
+        <article class="project-card" data-category="finished">
+          <div class="project-img wide"><img src="ece101finalannotatedbb.png" alt="ECE101 Annotated Breadboard"></div>
+          <div class="project-body"><span class="project-tag finished">Completed</span><h3>ECE101 — Logic Wars: NOT Gate vs. XOR Gate “CTF” Logic Circuit</h3><p class="project-date">April 2026 – May 2026</p><p>Designed and built a prototype interactive two-player digital logic game that transforms combinational logic into a competitive capture-the-flag experience.</p><p>The project uses 74LS04 NOT and 74LS86 XOR logic gates, a transistor-based bistable LED network, switch arrays, and discrete components to create real-time gameplay.</p><div class="chips"><span>Circuit/Schematic Design</span><span>Boolean Logic</span><span>Troubleshooting</span><span>Electronics Hardware Design</span></div></div>
+        </article>
+        <article class="project-card" data-category="finished">
+          <div class="project-img wide"><img src="smartassistivewalker.jpg" alt="Smart Assistive Walker"></div>
+          <div class="project-body"><span class="project-tag finished">Completed</span><h3>ENGR107 Team Engineering Project — Smart Assistive Walker</h3><p class="project-date">Oct. 2025 – Dec. 2025</p><p>Led my team through the design and development of a smart assistive walker. I programmed and wired an Arduino-based ultrasonic sensing system with an active buzzer in C/C++ and coordinated design reviews, testing, budgeting, CAD, and prototype fabrication.</p><div class="chips"><span>CAD</span><span>Engineering Process</span><span>C/C++</span><span>Project Management</span><span>Prototyping & Fabrication</span></div></div>
+        </article>
+        <div class="empty-state" data-category="pit"><span class="empty-icon">⛟</span><h3>Nothing to see here yet</h3><p>New projects are pulling into the pit soon.</p></div>
       </div>
     </section>
     <section id="skills" class="card">
@@ -146,50 +86,20 @@
       </div>
     </section>
     <section id="certifications" class="card">
-      <h2>Certifications</h2>
-      <br />
-      <div class="columns">
-        <div>
-          <h3>🏆 Earned</h3>
-          <ul>
-            <br>
-            <h3>OSHA 10-Hour — General Industry</h3>
-            <p>2025</p>
-            <br>
-            <li>Completed the OSHA 10-hour general industry training covering workplace safety, hazard recognition, and safe work practices.</li>
-            <br>
-            <h3>Skills</h3>
-            <br>
-            <div class="chips">
-              <span>Workplace Safety</span><span>Hazard Recognition</span><span>Safe Work Practices</span>
-            </div>
-            <br>
-          </ul>
-        </div>
-        <div>
-          <h3>🚧 In Progress</h3>
-          <ul>
-            <br>
-            <h3>CompTIA A+ — IT Support Fundamentals</h3>
-            <p>Expected 2026</p>
-            <br>
-            <li>Currently preparing for the CompTIA A+ certification covering hardware, networking, troubleshooting, and operational procedures.</li>
-            <br>
-            <h3>Skills</h3>
-            <br>
-            <div class="chips">
-              <span>Hardware</span><span>Networking</span><span>Troubleshooting</span><span>Operational Procedures</span>
-            </div>
-            <br>
-          </ul>
-        </div>
-        <div>
-          <h3>🧰 Planned</h3>
-          <ul>
-            <br>
-            <h2>Nothing to see here. ⛟</h2>
-          </ul>
-        </div>
+      <div class="section-heading">
+        <div><span class="eyebrow">Milestones</span><h2>Certifications</h2></div>
+        <p class="section-intro">Credentials earned, in progress, and next on the roadmap.</p>
+      </div>
+      <div class="tabs" data-tab-group="certifications">
+        <button class="tab active" data-tab="all">All credentials</button>
+        <button class="tab" data-tab="earned">🏆 Earned</button>
+        <button class="tab" data-tab="progress">🚧 In Progress</button>
+        <button class="tab" data-tab="planned">🧰 Planned</button>
+      </div>
+      <div class="cert-grid">
+        <article class="cert-card" data-category="earned"><div class="cert-mark">✓</div><div><span class="project-tag finished">Earned · 2025</span><h3>OSHA 10-Hour — General Industry</h3><p>Completed training covering workplace safety, hazard recognition, and safe work practices.</p><div class="chips"><span>Workplace Safety</span><span>Hazard Recognition</span><span>Safe Work Practices</span></div></div></article>
+        <article class="cert-card" data-category="progress"><div class="cert-mark progress-mark">↗</div><div><span class="project-tag">Expected 2026</span><h3>CompTIA A+ — IT Support Fundamentals</h3><p>Preparing for certification covering hardware, networking, troubleshooting, and operational procedures.</p><div class="chips"><span>Hardware</span><span>Networking</span><span>Troubleshooting</span><span>Operational Procedures</span></div></div></article>
+        <div class="empty-state" data-category="planned"><span class="empty-icon">⛟</span><h3>Roadmap loading</h3><p>More credentials will be added here.</p></div>
       </div>
     </section>
     <section id="contact" class="card">
