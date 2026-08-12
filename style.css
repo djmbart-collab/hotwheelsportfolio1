@@ -1,5 +1,4 @@
 :root{--bg:#0a0d12;--panel:rgba(18,22,30,.72);--line:rgba(255,255,255,.12);--orange:#ff7a18;--red:#ef4444;--white:#f6f8fb}*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:'Space Grotesk',sans-serif;color:var(--white);background:#07090d;overflow-x:hidden}.track{position:fixed;inset:0;z-index:-1;background:
-  radial-gradient(ellipse 70% 50% at 18% 8%,rgba(255,122,24,.16),transparent 55%),
   radial-gradient(ellipse 60% 45% at 88% 92%,rgba(239,68,68,.12),transparent 55%),
   radial-gradient(ellipse 100% 80% at 50% 50%,rgba(20,24,34,.6),transparent 70%),
   repeating-linear-gradient(125deg,rgba(255,255,255,.018) 0 2px,transparent 2px 38px),
