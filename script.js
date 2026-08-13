@@ -10,3 +10,8 @@ document.querySelectorAll('[data-tab-group]').forEach(group=>{
     items.forEach(item=>item.classList.toggle('is-hidden',category!=='all'&&item.dataset.category!==category));
   }));
 });
+
+const lb=document.getElementById('lightbox'),lbImg=lb.querySelector('img');
+document.querySelectorAll('.thumb').forEach(t=>t.onclick=()=>{lbImg.src=t.src;lbImg.alt=t.alt;lb.classList.add('open');});
+lb.onclick=()=>lb.classList.remove('open');
+document.addEventListener('keydown',e=>{if(e.key==='Escape')lb.classList.remove('open');});
